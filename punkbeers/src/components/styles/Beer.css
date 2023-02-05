@@ -1,0 +1,19 @@
+.card{
+    padding: 15px;
+    overflow: hidden;
+    max-height: 300px;
+    max-width: 540px;
+   
+}
+.img-fluid{
+    max-height: 250px;
+    width: fit-content;
+}
+@media screen and (max-width:768px) {
+    .card{
+        padding: 5px;
+        max-height: 350px;
+        max-width: auto;
+        
+    }
+}
